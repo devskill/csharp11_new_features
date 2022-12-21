@@ -9,8 +9,8 @@ namespace NameOfScope
 {
     public class Car
     {
-        [return: NotNullIfNotNull(nameof(url))]
-        string? GetTopLevelDomainFromFullUrl(string? url)
+        [MyAttribute(nameof(model))]
+        public void Start(string model)
         {
             throw new NotImplementedException();
         }

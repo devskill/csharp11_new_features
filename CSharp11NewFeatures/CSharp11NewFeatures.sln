@@ -9,8 +9,6 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GenericAttributes", "Generi
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UTF8_StringLiterals", "UTF8_StringLiterals\UTF8_StringLiterals.csproj", "{DCE822AC-AB1F-4CF2-BD2D-578D23D7A7EA}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Newlines_String_nterpolations", "Newlines_String_nterpolations\Newlines_String_nterpolations.csproj", "{C965C298-F692-4F73-B00E-52A5ED3841CC}"
-EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ListPatterns", "ListPatterns\ListPatterns.csproj", "{E45626CD-28CD-4313-910C-83AE237AB1CC}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FileLocalType", "FileLocalType\FileLocalType.csproj", "{EE75BE5D-5FD0-4BFD-A961-12A0CE910C02}"
@@ -21,7 +19,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AutoDefaultStructIn7", "Aut
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NameOfScope", "NameOfScope\NameOfScope.csproj", "{228E8B4B-31AA-4F91-B167-BD2FDA23B993}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GenericMathSupport", "GenericMathSupport\GenericMathSupport.csproj", "{3A707E77-7CCD-489C-9EDF-D0DA1EC1410D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GenericMathSupport", "GenericMathSupport\GenericMathSupport.csproj", "{3A707E77-7CCD-489C-9EDF-D0DA1EC1410D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Newlines_String_Interpolations", "Newlines_String_Interpolations\Newlines_String_Interpolations.csproj", "{58184F25-7D04-4424-B5D0-6F6AB25BBD3D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -41,10 +41,6 @@ Global
 		{DCE822AC-AB1F-4CF2-BD2D-578D23D7A7EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DCE822AC-AB1F-4CF2-BD2D-578D23D7A7EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DCE822AC-AB1F-4CF2-BD2D-578D23D7A7EA}.Release|Any CPU.Build.0 = Release|Any CPU
-		{C965C298-F692-4F73-B00E-52A5ED3841CC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{C965C298-F692-4F73-B00E-52A5ED3841CC}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{C965C298-F692-4F73-B00E-52A5ED3841CC}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{C965C298-F692-4F73-B00E-52A5ED3841CC}.Release|Any CPU.Build.0 = Release|Any CPU
 		{E45626CD-28CD-4313-910C-83AE237AB1CC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{E45626CD-28CD-4313-910C-83AE237AB1CC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E45626CD-28CD-4313-910C-83AE237AB1CC}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -69,6 +65,10 @@ Global
 		{3A707E77-7CCD-489C-9EDF-D0DA1EC1410D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3A707E77-7CCD-489C-9EDF-D0DA1EC1410D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3A707E77-7CCD-489C-9EDF-D0DA1EC1410D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{58184F25-7D04-4424-B5D0-6F6AB25BBD3D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{58184F25-7D04-4424-B5D0-6F6AB25BBD3D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{58184F25-7D04-4424-B5D0-6F6AB25BBD3D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{58184F25-7D04-4424-B5D0-6F6AB25BBD3D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
