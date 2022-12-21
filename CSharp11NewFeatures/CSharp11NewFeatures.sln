@@ -5,15 +5,21 @@ VisualStudioVersion = 17.4.33205.214
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RawStringLiterals", "RawStringLiterals\RawStringLiterals.csproj", "{0CEF5F6E-2128-42CA-8D7D-AF6E0C60FE5E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GenericAttributes", "GenericAttributes\GenericAttributes.csproj", "{ECF959D4-DD2C-4772-8AF3-F453A80C6876}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GenericAttributes", "GenericAttributes\GenericAttributes.csproj", "{ECF959D4-DD2C-4772-8AF3-F453A80C6876}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UTF8_StringLiterals", "UTF8_StringLiterals\UTF8_StringLiterals.csproj", "{DCE822AC-AB1F-4CF2-BD2D-578D23D7A7EA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UTF8_StringLiterals", "UTF8_StringLiterals\UTF8_StringLiterals.csproj", "{DCE822AC-AB1F-4CF2-BD2D-578D23D7A7EA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Newlines_String_nterpolations", "Newlines_String_nterpolations\Newlines_String_nterpolations.csproj", "{C965C298-F692-4F73-B00E-52A5ED3841CC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Newlines_String_nterpolations", "Newlines_String_nterpolations\Newlines_String_nterpolations.csproj", "{C965C298-F692-4F73-B00E-52A5ED3841CC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ListPatterns", "ListPatterns\ListPatterns.csproj", "{E45626CD-28CD-4313-910C-83AE237AB1CC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ListPatterns", "ListPatterns\ListPatterns.csproj", "{E45626CD-28CD-4313-910C-83AE237AB1CC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FileLocalType", "FileLocalType\FileLocalType.csproj", "{EE75BE5D-5FD0-4BFD-A961-12A0CE910C02}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FileLocalType", "FileLocalType\FileLocalType.csproj", "{EE75BE5D-5FD0-4BFD-A961-12A0CE910C02}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RequiredMembers", "RequiredMembers\RequiredMembers.csproj", "{145616B2-3562-460C-8F25-08AD5DC7E511}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AutoDefaultStructIn7", "AutoDefaultStructIn7\AutoDefaultStructIn7.csproj", "{65DD4DA8-E860-4297-9B6B-2F2C7C8EADB5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NameOfScope", "NameOfScope\NameOfScope.csproj", "{228E8B4B-31AA-4F91-B167-BD2FDA23B993}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,6 +51,18 @@ Global
 		{EE75BE5D-5FD0-4BFD-A961-12A0CE910C02}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EE75BE5D-5FD0-4BFD-A961-12A0CE910C02}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EE75BE5D-5FD0-4BFD-A961-12A0CE910C02}.Release|Any CPU.Build.0 = Release|Any CPU
+		{145616B2-3562-460C-8F25-08AD5DC7E511}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{145616B2-3562-460C-8F25-08AD5DC7E511}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{145616B2-3562-460C-8F25-08AD5DC7E511}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{145616B2-3562-460C-8F25-08AD5DC7E511}.Release|Any CPU.Build.0 = Release|Any CPU
+		{65DD4DA8-E860-4297-9B6B-2F2C7C8EADB5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{65DD4DA8-E860-4297-9B6B-2F2C7C8EADB5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{65DD4DA8-E860-4297-9B6B-2F2C7C8EADB5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{65DD4DA8-E860-4297-9B6B-2F2C7C8EADB5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{228E8B4B-31AA-4F91-B167-BD2FDA23B993}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{228E8B4B-31AA-4F91-B167-BD2FDA23B993}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{228E8B4B-31AA-4F91-B167-BD2FDA23B993}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{228E8B4B-31AA-4F91-B167-BD2FDA23B993}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
